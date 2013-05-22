@@ -32,6 +32,10 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+gem 'ember-rails'
+gem 'ember-source', '1.0.0.rc3.4' # or the version you need
+gem 'handlebars-source', '1.0.0.rc4' # or the version you need
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
