@@ -16,6 +16,7 @@
 //= require handlebars
 //= require ember
 //= require ember-data
+//= require ember-validations-0.2.1.min
 //= require_self
 //= require shop_n_drop
 ShopNDrop = Ember.Application.create();
