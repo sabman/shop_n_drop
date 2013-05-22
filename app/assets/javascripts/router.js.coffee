@@ -1,3 +1,3 @@
 ShopNDrop.Router.map (match)->
-  # match('/').to('index')
-
+  @resource 'products', ->
+    @resource 'product', { path: ':product_id' }
