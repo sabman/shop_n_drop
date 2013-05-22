@@ -1,4 +1,4 @@
 ShopNDrop.Store = DS.Store.extend
-  revision: 4
+  revision: 12
   adapter: DS.RESTAdapter.create()
 
